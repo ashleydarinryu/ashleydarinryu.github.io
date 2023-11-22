@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #0b032d;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #navbar a:hover {
-    color: #ffcc00;
+    color: #843b62;
 }
 
 #profile-container {
@@ -41,6 +41,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 80px; /* Adjusted to make space for the fixed navbar */
+    padding: 20px;
 }
 
 #profile-picture {
@@ -50,6 +51,7 @@ body {
 
 #profile-info {
     max-width: 400px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section {
@@ -57,6 +59,7 @@ body {
 }
 
 .section h2 {
+    font-family: 'Open Sans', sans-serif;
     color: #333;
     border-bottom: 1px solid #ccc;
 }
