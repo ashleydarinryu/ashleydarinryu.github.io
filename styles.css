@@ -20,6 +20,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #navbar li {
@@ -30,6 +31,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    align-items: center;
     transition: color 0.3s;
 }
 
