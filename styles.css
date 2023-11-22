@@ -37,9 +37,15 @@ body {
     color: #f67e7d;
 }
 
-#navbar a i {
-    font-size: 24px; /* Adjust the icon size as needed */
-    margin-right: 5px; /* Add margin for spacing */
+#navbar a img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px; /* Add margin for spacing */
+    cursor: pointer; /* Set cursor to pointer to indicate it's clickable */
+}
+
+#navbar a img:hover {
+    opacity: 0.8; /* Adjust opacity for hover effect */
 }
 
 #profile-container {
