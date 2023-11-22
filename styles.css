@@ -19,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-around;
 }
 
 #navbar li {
@@ -33,7 +34,7 @@ body {
 }
 
 #navbar a:hover {
-    color: #843b62;
+    color: #f67e7d;
 }
 
 #profile-container {
@@ -45,7 +46,6 @@ body {
 }
 
 #profile-picture {
-    border-radius: 50%;
     margin-bottom: 10px;
 }
 
