@@ -67,6 +67,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#samsung_pic {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 .section {
     padding: 20px;
 }
