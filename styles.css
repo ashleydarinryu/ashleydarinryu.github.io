@@ -49,18 +49,6 @@ body {
     opacity: 0.8; /* Adjust opacity for hover effect */
 }
 
-#profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-#profile-info {
-    margin-left: 20px;
-    color: #fff;
-}
-
 #content {
     flex-grow: 1;
     padding: 20px;
