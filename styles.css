@@ -1,7 +1,9 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace;
+    font-size: 130%;
     margin: 0;
     padding: 0;
+    background-color: #d6cfcb;
 }
 
 #container {
@@ -9,7 +11,7 @@ body {
 }
 
 #navbar {
-    background-color: #64b2d2;
+    background-color: #a6808c;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -33,6 +35,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-family: monospace;
     align-items: center;
     transition: color 0.3s;
 }
@@ -51,7 +54,7 @@ body {
 
 #content {
     flex-grow: 1;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 #prof-name {
@@ -59,19 +62,27 @@ body {
     padding-bottom: 20px;
 }
 
+#intro {
+    display: flex;
+    padding: 20px
+}
+
+#intro img {
+    padding-left: 100px;
+}
+
 .section {
-    padding: 20px;
-    background-color: #f8f8f8;
-    padding: 40px;
+    background-color: #ccb7aebc;
+    padding: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: monospace;
     color: #333;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #565264;
 }
 
 /* Add more styling as needed */
